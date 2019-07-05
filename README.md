@@ -50,7 +50,7 @@ _These instructions will allow you to obtain a copy of the project on your local
 
 ## License 📄
 
-This project is under the MIT License - see the file [LICENSE.md] (LICENSE.md) for details
+This project is under the MIT License - see the file [LICENSE.md](LICENSE.md) for details
 
 ## Author ✒️
 
