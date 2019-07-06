@@ -4,7 +4,7 @@ import './styles.scss';
 
 const Projects = () => {
   return (
-    <section className="projects__container">
+    <section className="projects__container" id="projects">
       <div className="projects__group">
         <h2>Group projects</h2>
         <ProjectCard

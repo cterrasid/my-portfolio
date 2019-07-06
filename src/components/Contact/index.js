@@ -4,7 +4,7 @@ import './styles.scss';
 
 const Contact = () => {
   return (
-    <section className="contact__container">
+    <section className="contact__container" id="contact">
       <ul className="contact__social-list">
         <li>
           <SocialNetwork
