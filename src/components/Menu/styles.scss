@@ -4,6 +4,8 @@
   &__container {
     @include flexContainer(flex, center, center, column);
     @include boxSize(100vh, 100%);
+    position: fixed;
+    top: 0;
     background-color: rgb(216, 216, 11);
   }
 
