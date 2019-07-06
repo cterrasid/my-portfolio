@@ -1,0 +1,84 @@
+@import '../../stylesheets/mixins.scss';
+@import '../../stylesheets/variables.scss';
+
+.menu-button {
+  &__container {
+    @include flexContainer(flex, flex-start, center, unset);
+    @include boxSize(50px, 50px);
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 0 10px;
+    border-radius: 100%;
+    background-color: $blackPure;
+    z-index: 1;
+  }
+
+  &__btn {
+    @include flexContainer(flex, center, center, unset);
+    @include boxSize(30px, 35px);
+    position: relative;
+    transition: 0.4s;
+  }
+
+  &__icon {
+    @include boxSize(4px, 90%);
+    display: block;
+    position: relative;
+    background: $whitePure;
+    transition: 0.4s;
+
+    &::after,
+    &::before {
+      content: '';
+      @include boxSize(4px, 100%);
+      display: block;
+      position: absolute;
+      background: $whitePure;
+      transition: 0.4s;
+    }
+    &::after {
+      top: 8px;
+    }
+    &::before {
+      top: -8px;
+    }
+  }
+
+  &__checkbox {
+    display: none;
+
+    &:checked ~ {
+      .menu-button {
+        &__nav {
+          opacity: 1;
+          transition-delay: 0s;
+        }
+
+        &__container {
+          height: 100%;
+          transition-delay: 0s;
+        }
+
+        &__btn {
+          .menu-button__icon {
+            background: transparent;
+
+            &::before,
+            &::after {
+              top: 0;
+            }
+
+            &::after {
+              transform: rotate(-45deg);
+            }
+
+            &::before {
+              transform: rotate(45deg);
+            }
+          }
+        }
+      }
+    }
+  }
+}
