@@ -4,7 +4,6 @@ import './styles.scss';
 const AboutMe = () => {
   return (
     <section className="about-me__container">
-      <img className="about-me__profile" src="#" alt="Clarette" />
       <p className="about-me__description" />
       <div className="about-me__stack">
         <h2>Stack</h2>
