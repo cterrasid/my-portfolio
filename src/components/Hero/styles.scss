@@ -1,7 +1,28 @@
 @import '../../stylesheets/mixins.scss';
+@import '../../stylesheets/variables.scss';
 
-.hero__container {
-  @include flexContainer(flex, center, center, column);
-  @include boxSize(100vh, 100%);
-  background-color: yellow;
+.hero {
+  &__container {
+    @include flexContainer(flex, center, center, column);
+    @include boxSize(100vh, 100%);
+    background-color: yellow;
+  }
+
+  &__profile {
+    @include boxSize(200px, 200px);
+    @include boxStyle;
+    border-radius: 100%;
+    margin-bottom: 20px;
+
+    &:hover {
+      @include backgroundImage(
+        '../../images/clarette.jpg',
+        center,
+        center,
+        no-repeat,
+        $whitePure,
+        cover
+      );
+    }
+  }
 }
