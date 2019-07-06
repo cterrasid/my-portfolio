@@ -1,0 +1,9 @@
+@import '../../stylesheets/mixins.scss';
+
+.about-me {
+  &__container {
+    @include flexContainer(flex, center, center, column);
+    @include boxSize(100vh, 100%);
+    background-color: rgb(103, 216, 11);
+  }
+}

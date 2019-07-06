@@ -1,0 +1,9 @@
+@import '../../stylesheets/mixins.scss';
+
+.projects {
+  &__container {
+    @include flexContainer(flex, center, center, column);
+    @include boxSize(unset, 100%);
+    background-color: rgb(11, 216, 131);
+  }
+}

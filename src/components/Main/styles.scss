@@ -1,0 +1,8 @@
+@import '../../stylesheets/mixins.scss';
+
+.main {
+  &__container {
+    @include flexContainer(flex, center, center, column);
+    @include boxSize(100%, 100%);
+  }
+}
