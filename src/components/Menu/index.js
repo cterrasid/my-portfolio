@@ -10,7 +10,12 @@ const Menu = props => {
   return (
     <Fragment>
       <MenuButton handleButtonMenu={handleButtonMenu} menuStatus={menuStatus} />
-      {menuStatus === 'open' ? <MenuNavigation /> : null}
+      {menuStatus === 'open' ? (
+        <MenuNavigation
+          handleButtonMenu={handleButtonMenu}
+          menuStatus={menuStatus}
+        />
+      ) : null}
     </Fragment>
   );
 };
