@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Menu from '../Menu';
+import Hero from '../Hero';
 import './styles.scss';
 
 const Header = props => {
@@ -9,11 +10,7 @@ const Header = props => {
   return (
     <header className="header__container">
       <Menu handleButtonMenu={handleButtonMenu} menuStatus={menuStatus} />
-      <div className="hero__container">
-        <img className="hero__profile" src="#" alt="Clarette" />
-        <h1 className="hero__title">Clarette Terrasi Díaz</h1>
-        <h2 className="hero__subtitle">Frontend Developer</h2>
-      </div>
+      <Hero />
     </header>
   );
 };
