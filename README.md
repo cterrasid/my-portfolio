@@ -9,8 +9,24 @@ _Professional portfolio as a frontend developer_
 `-_src
     |-components
       |-App
-    |-scss
+          |-Header
+            |-Menu
+              |-MenuButton
+              |-MenuNavigation
+            |-Hero
+          |-Main
+            |-AboutMe
+            |-Projects
+              |-ProjectsGroup
+                |-ProjectCard
+              |-ProjectsIndividual
+                |-ProjectCard
+            |-Publications
+            |-Contact
+              |-SocialNetwork
+    |-stylesheets
     |-images
+    |-assets
 ```
 
 ## Starting 🚀
@@ -54,3 +70,7 @@ This project is under the MIT License - see the file [LICENSE.md](LICENSE.md) fo
 ## Author ✒️
 
 - Clarette Terrasi Díaz - [cterrasid](https://www.linkedin.com/in/cterrasid/)
+
+## Aknowledgements
+
+- Simone Pizzamiglio - [Burger Menu CSS only](https://codepen.io/simonepizzamiglio/pen/OjMbZx): Great reference to create the burger menu of this project.
