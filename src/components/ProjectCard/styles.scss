@@ -35,12 +35,5 @@
   &__link {
     @include linkBoxStyle;
     margin-right: 10px;
-
-    &:hover, &:active {
-      @include boxStyle(5px);
-      color: $whitePure;
-      background-color: $blackPure;
-      border-color: $whitePure;
-    }
   }
 }
