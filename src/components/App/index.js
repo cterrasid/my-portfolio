@@ -11,10 +11,10 @@ class App extends PureComponent {
       menuStatus: 'close' || 'open',
     };
 
-    this.handleButtonMenu = this.handleButtonMenu.bind(this);
+    this.handleMenuClick = this.handleMenuClick.bind(this);
   }
 
-  handleButtonMenu() {
+  handleMenuClick() {
     const { menuStatus } = this.state;
 
     menuStatus  === 'open'
@@ -32,7 +32,7 @@ class App extends PureComponent {
     return (
       <div className="app__container">
         <Header
-          handleButtonMenu={this.handleButtonMenu}
+          handleMenuClick={this.handleMenuClick}
           menuStatus={menuStatus}
         />
         <Main />

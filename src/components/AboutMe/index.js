@@ -4,6 +4,7 @@ import './styles.scss';
 const AboutMe = () => {
   return (
     <section className="about-me__container" id="aboutMe" >
+      <h1 className="about-me__title">About me</h1>
       <p className="about-me__description">Description</p>
       <div className="about-me__stack">
         <h2>Stack</h2>

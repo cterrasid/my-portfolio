@@ -5,14 +5,14 @@ import MenuNavigation from '../MenuNavigation';
 import './styles.scss';
 
 const Menu = props => {
-  const { handleButtonMenu, menuStatus } = props;
+  const { handleMenuClick, menuStatus } = props;
 
   return (
     <Fragment>
-      <MenuButton handleButtonMenu={handleButtonMenu} menuStatus={menuStatus} />
+      <MenuButton handleMenuClick={handleMenuClick} menuStatus={menuStatus} />
       {menuStatus === 'open' ? (
         <MenuNavigation
-          handleButtonMenu={handleButtonMenu}
+          handleMenuClick={handleMenuClick}
           menuStatus={menuStatus}
         />
       ) : null}
@@ -21,7 +21,7 @@ const Menu = props => {
 };
 
 Menu.propTypes = {
-  handleButtonMenu: PropTypes.func.isRequired,
+  handleMenuClick: PropTypes.func.isRequired,
   menuStatus: PropTypes.string.isRequired,
 };
 

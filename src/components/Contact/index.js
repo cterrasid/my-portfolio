@@ -5,6 +5,7 @@ import './styles.scss';
 const Contact = () => {
   return (
     <section className="contact__container" id="contact">
+      <h1 className="contact__title">Contact me</h1>
       <ul className="contact__social-list">
         <li>
           <SocialNetwork

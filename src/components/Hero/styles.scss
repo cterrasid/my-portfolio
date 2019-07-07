@@ -11,6 +11,14 @@
   &__profile {
     @include boxSize(200px, 200px);
     @include boxStyle;
+    @include backgroundImage(
+      '../../images/clarette_caricatura.png',
+      center,
+      center,
+      no-repeat,
+      $whitePure,
+      cover
+    );
     border-radius: 100%;
     margin-bottom: 20px;
 

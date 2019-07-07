@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './styles.scss';
 
 const MenuButton = props => {
-  const { handleButtonMenu, menuStatus } = props;
+  const { handleMenuClick, menuStatus } = props;
 
   return (
     <div className="menu-button__container">
@@ -11,7 +11,7 @@ const MenuButton = props => {
         type="checkbox"
         id="checkbox"
         className={`menu-button__checkbox ${menuStatus}`}
-        onClick={handleButtonMenu}
+        onClick={handleMenuClick}
       />
       <label htmlFor="checkbox" className="menu-button__btn">
         <div className="menu-button__icon" />
@@ -21,7 +21,7 @@ const MenuButton = props => {
 };
 
 MenuButton.propTypes = {
-  handleButtonMenu: PropTypes.func.isRequired,
+  handleMenuClick: PropTypes.func.isRequired,
   menuStatus: PropTypes.string.isRequired,
 };
 

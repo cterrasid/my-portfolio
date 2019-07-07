@@ -5,6 +5,7 @@ import './styles.scss';
 const Projects = () => {
   return (
     <section className="projects__container" id="projects">
+      <h1 className="projects__title">Projects</h1>
       <div className="projects__group">
         <h2>Group projects</h2>
         <ProjectCard

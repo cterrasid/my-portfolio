@@ -5,18 +5,18 @@ import Hero from '../Hero';
 import './styles.scss';
 
 const Header = props => {
-  const { handleButtonMenu, menuStatus } = props;
+  const { handleMenuClick, menuStatus } = props;
 
   return (
     <header className="header__container">
-      <Menu handleButtonMenu={handleButtonMenu} menuStatus={menuStatus} />
+      <Menu handleMenuClick={handleMenuClick} menuStatus={menuStatus} />
       <Hero />
     </header>
   );
 };
 
 Header.propTypes = {
-  handleButtonMenu: PropTypes.func.isRequired,
+  handleMenuClick: PropTypes.func.isRequired,
   menuStatus: PropTypes.string.isRequired,
 };
 
