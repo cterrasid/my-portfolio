@@ -10,7 +10,7 @@
 
   &__profile {
     @include boxSize(200px, 200px);
-    @include boxStyle;
+    @include boxStyle(100%);
     @include backgroundImage(
       '../../images/clarette_caricatura.png',
       center,
@@ -19,7 +19,6 @@
       $whitePure,
       cover
     );
-    border-radius: 100%;
     margin-bottom: 20px;
 
     &:hover {

@@ -10,9 +10,19 @@
   width: $width;
 }
 
-@mixin boxStyle {
+@mixin boxStyle($radius) {
   box-shadow: 0 2px 25px 2px $niceBlueShadow;
+  border-radius: $radius;
+}
+
+@mixin linkBoxStyle {
+  border: 2px solid $blackPure;
   border-radius: 5px;
+  color: $blackPure;
+  text-transform: uppercase;
+  font-size: $fontSizeXS;
+  font-weight: bold;
+  padding: 10px;
 }
 
 @mixin backgroundImage($url, $positionX, $positionY, $repeat, $color, $size) {

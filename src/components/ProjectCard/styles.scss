@@ -1,0 +1,46 @@
+@import '../../stylesheets/mixins.scss';
+@import '../../stylesheets/variables.scss';
+
+.project-card {
+  &__container {
+    @include boxSize(unset, 250px);
+    @include flexContainer(flex, center, center, column);
+    margin: 20px auto;
+  }
+
+  &__image {
+    @include boxStyle(0);
+    @include boxSize(130px, 100%);
+    margin-bottom: 20px;
+  }
+
+  &__content {
+    @include flexContainer(flex, flex-start, flex-start, column);
+  }
+
+  &__title {
+    font-family: $font-secondary;
+  }
+
+  &__description {
+    text-overflow: ellipsis;
+  }
+
+  &__links {
+    @include flexContainer(flex, flex-start, flex-start, row);
+    @include boxSize(unset, 100%);
+    margin: 10px auto;
+  }
+
+  &__link {
+    @include linkBoxStyle;
+    margin-right: 10px;
+
+    &:hover, &:active {
+      @include boxStyle(5px);
+      color: $whitePure;
+      background-color: $blackPure;
+      border-color: $whitePure;
+    }
+  }
+}
