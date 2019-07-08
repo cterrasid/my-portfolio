@@ -1,0 +1,82 @@
+{
+  "locale": "en-us",
+  "hero": {
+    "name": "Clarette Terrasi Diaz",
+    "job": "Frontend developer"
+  },
+  "menu": {
+    "about-me": "About me",
+    "projects": "Projects",
+    "publications": "Publications",
+    "contact": "Contact"
+  },
+  "about-me": {
+    "title": "About me",
+    "description": "Frontend developer, constantly evolving and learning. Methodical, adaptative, curious and committed to give the best in everything I do. The world of technology hooked me immediately, because of its transversality and the constant challenges it entails, as well as the opportunity to take my creative and analytical potential to another level.",
+    "tech-skills": {
+      "title": "Technical skills",
+      "subtitle": {
+        "web-layout": "Web layout",
+        "web-programming": "Web programming",
+        "dev-tools": "Development tools",
+        "clean-code": "Clean code and good practices",
+        "communication": "Communication and teamwork tools"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "group": {
+      "title": "Group projects",
+      "project": [
+        {
+          "name": "Contact website: Corchangulo's Squad",
+          "description": "Corporative, responsive and accessible website, developed using HTML and CSS (SASS). The site is available in English and Spanish"
+        },
+        {
+          "name": "Interactive webapp: Awesome Profile Cards",
+          "description": "Online cards generator for web developers builded with Vanilla Javascript, HTML and CSS (SASS)."
+        },
+        {
+          "name": "ReactJs Single Page Application",
+          "description": "Inherited code project originally developed in Vanilla JavaScript, then refactored and converted into a React's Single Page Application."
+        },
+        {
+          "name": "Events interface for Eventbrite",
+          "description": "Single Page Application for Eventbrite using React. The app is about an event interface using the Public Eventbrite API, which allows filtering by city and type of event."
+        }
+      ]
+    },
+    "individual": {
+      "title": "Individual projects",
+      "project": [
+        { "name": "Life calendar", "description": "Add a description here" },
+        {
+          "name": "Pokemon memory game",
+          "description": "Add a description here"
+        },
+        { "name": "Simple pokedex", "description": "Add a description here" },
+        {
+          "name": "Harry Potter character finder",
+          "description": "Add a description here"
+        }
+      ]
+    }
+  },
+  "publications": {
+    "title": "Publications",
+    "publication": [
+      {
+        "name": "The apprentice soundtrack",
+        "description": "Add a description here"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact me"
+  },
+  "links": {
+    "repo": "Repository",
+    "link": "Link"
+  }
+}

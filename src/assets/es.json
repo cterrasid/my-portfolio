@@ -1,0 +1,48 @@
+{
+  "locale": "es-esp",
+  "primary-titles": {
+    "hero": "Clarette Terrasi Díaz",
+    "about-me": "Sobre mi",
+    "projects": "Proyectos",
+    "publications": "Publicaciones",
+    "contact": "Contacto"
+  },
+  "secondary-titles": {
+    "hero": "Desarrolladora frontend",
+    "about-me": "Competencias técnicas",
+    "projects": [
+      "Web de contacto: Corchángulo's Squad",
+      "Aplicación web interactiva: Awesome Profile Cards",
+      "Aplicación web interactiva con ReactJs",
+      "Interfaz dinámica de eventos para Eventbrite",
+      "Life calendar",
+      "Juego de memoria basado en Pokemon",
+      "Pokedex",
+      "Buscador de personajes basado en Harry Potter"
+    ],
+    "publications": "El soundtrack del aprendiz"
+  },
+  "tertiary-titles": {
+    "about-me": [
+      "Maquetación",
+      "Programación",
+      "Herramientas de desarrollo",
+      "Buenas prácticas",
+      "Herramientas de comunicación y trabajo en equipo"
+    ]
+  },
+  "descriptions": {
+    "about-me": "Desarrolladora Frontend, en constante evolución y aprendizaje. Metódica, adaptativa, curiosa y comprometida por dar lo mejor de mi en todo lo que hago. El mundo de la tecnología me enganchó deinmediato, por su transversalidad y los constantes retos que supone, así como la oportunidad de llevar mi potencial creativo y analítico a otro nivel",
+    "projects": [
+      "Web corporativa, responsive y accesible, desarrollada con HTML y CSS (SASS). Disponible en inglés y español",
+      "Generador online de tarjetas de presentación para desarrolladores web; maquetado con HTML y CSS (SASS), y desarrollado con JavaScript.",
+      "Migración de un proyecto desarrollado originalmente con Vanilla JavaScript a ReactJS.",
+      "Creación de una interfaz dinámica de eventos de la ciudad de Madrid, en colaboración con Eventbrite, con el objetivo de explotar el uso de su API pública. Dispone de vista de detalle de cada evento."
+    ],
+    "publications": "Breve recorrido musical a través de las vivencias, triunfos y derrotas que padece una programadora junior en pleno proceso de aprendizaje."
+  },
+  "links": {
+    "repo": "Repositorio",
+    "link": "Enlace"
+  }
+}

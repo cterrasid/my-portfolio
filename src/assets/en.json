@@ -1,0 +1,48 @@
+{
+  "locale": "en-us",
+  "primary-titles": {
+    "hero": "Clarette Terrasi Diaz",
+    "about-me": "About me",
+    "projects": "Projects",
+    "publications": "Publications",
+    "contact": "Contact"
+  },
+  "secondary-titles": {
+    "hero": "Frontend developer",
+    "about-me": "Technical skills",
+    "projects": [
+      "Contact website: Corchangulo's Squad",
+      "Interactive webapp: Awesome Profile Cards",
+      "ReactJs Single Page Application",
+      "Events interface for Eventbrite",
+      "Life calendar",
+      "Pokemon memory game",
+      "Simple pokedex",
+      "Harry Potter character finder"
+    ],
+    "publications": "The apprentice soundtrack"
+  },
+  "tertiary-titles": {
+    "about-me": [
+      "Web layout",
+      "Web programming",
+      "Development tools",
+      "Clean code and good practices",
+      "Communication and teamwork tools"
+    ]
+  },
+  "descriptions": {
+    "about-me": "Frontend developer, constantly evolving and learning. Methodical, adaptative, curious and committed to give the best in everything I do. The world of technology hooked me immediately, because of its transversality and the constant challenges it entails, as well as the opportunity to take my creative and analytical potential to another level.",
+    "projects": [
+      "Corporative, responsive and accessible website, developed using HTML and CSS (SASS). The site is available in English and Spanish",
+      "Online cards generator for web developers builded with Vanilla Javascript, HTML and CSS (SASS).",
+      "Inherited code project originally developed in Vanilla JavaScript, then refactored and converted into a React's Single Page Application.",
+      "Single Page Application for Eventbrite using React. The app is about an event interface using the Public Eventbrite API, which allows filtering by city and type of event."
+    ],
+    "publications": "Add a description here"
+  },
+  "links": {
+    "repo": "Repository",
+    "link": "Link"
+  }
+}
