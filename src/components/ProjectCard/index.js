@@ -8,7 +8,7 @@ const ProjectCard = props => {
     <article className="project-card__container">
       <img className="project-card__image" src={image} alt={title} />
       <div className="project-card__content">
-        <h3 className="project-card__title">{title}</h3>
+        <h2 className="project-card__title">{title}</h2>
         <p className="project-card__description">{description}</p>
         <div className="project-card__links">
           <a

@@ -9,15 +9,18 @@ class App extends PureComponent {
 
     this.state = {
       menuStatus: 'close' || 'open',
+      projectType: 'group' || 'individual',
     };
 
     this.handleMenuClick = this.handleMenuClick.bind(this);
+    this.handleProjectIndividualClick = this.handleProjectIndividualClick.bind(this);
+    this.handleProjectGroupClick = this.handleProjectGroupClick.bind(this);
   }
 
   handleMenuClick() {
     const { menuStatus } = this.state;
 
-    menuStatus  === 'open'
+    menuStatus === 'open'
       ? this.setState({
           menuStatus: 'close',
         })
@@ -26,8 +29,20 @@ class App extends PureComponent {
         });
   }
 
+  handleProjectIndividualClick() {
+    this.setState({
+      projectType: 'individual',
+    });
+  }
+
+  handleProjectGroupClick() {
+    this.setState({
+      projectType: 'group',
+    });
+  }
+
   render() {
-    const { menuStatus } = this.state;
+    const { menuStatus, projectType } = this.state;
 
     return (
       <div className="app__container">
@@ -35,7 +50,11 @@ class App extends PureComponent {
           handleMenuClick={this.handleMenuClick}
           menuStatus={menuStatus}
         />
-        <Main />
+        <Main
+          handleProjectIndividualClick={this.handleProjectIndividualClick}
+          handleProjectGroupClick={this.handleProjectGroupClick}
+          projectType={projectType}
+        />
       </div>
     );
   }

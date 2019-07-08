@@ -7,9 +7,9 @@ import events from '../../images/eventbrite-events.png';
 import './styles.scss';
 
 const ProjectsGroup = () => {
+
   return (
     <div className="projects-group__container">
-      <h2>Group projects</h2>
       <ProjectCard
         image={corchangulo}
         title="Contact website: Corchangulo's Squad"

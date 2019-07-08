@@ -6,9 +6,9 @@ import harrypotter from '../../images/harrypotter.png';
 import './styles.scss';
 
 const ProjectsIndividual = () => {
+
   return (
     <div className="projects-individual__container">
-      <h2>Individual projects</h2>
       <ProjectCard
         image=""
         title="Life calendar"
