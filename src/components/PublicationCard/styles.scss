@@ -1,12 +1,32 @@
 @import '../../stylesheets/mixins.scss';
 @import '../../stylesheets/variables.scss';
 
-.publications {
+.publication-card {
   &__container {
+    @include boxSize(100vh, 250px);
     @include flexContainer(flex, center, center, column);
-    @include boxSize(100vh, 100%);
-    background-color: $whitePure;
-    border-top: 3px solid $blackPure;
+    margin: 20px auto;
+  }
+
+  &__name {
+    font-family: $font-secondary;
+    display: inline;
+  }
+
+  &__language {
+    display: inline;
+    font-family: $font-primary;
+    font-size: $fontSizeS;
+    border-radius: 100%;
+    border: 2px solid $blackPure;
+    margin-left: 20px;
+    padding: 5px;
+
+  }
+
+  &__description {
+    font-size: $fontSizeXS;
+    line-height: 25px;
   }
 
   &__link {

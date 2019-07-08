@@ -7,8 +7,11 @@ const PublicationCard = props => {
 
   return (
     <article className="publication-card__container">
-      <h2 className="publication-card__name">{name}</h2>
-      <span className="publication-card__language">{language}</span>
+      <h2 className="publication-card__name">
+        {name}
+        <span className="publication-card__language">{language}</span>
+      </h2>
+
       <p className="publication-card__description">{description}</p>
       <a
         className="publication-card__link"

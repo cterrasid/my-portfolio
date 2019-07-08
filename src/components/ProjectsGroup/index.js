@@ -12,14 +12,14 @@ const ProjectsGroup = () => {
     <div className="projects-group__container">
       <ProjectCard
         image={corchangulo}
-        title="Contact website: Corchangulo's Squad"
+        name="Contact website: Corchangulo's Squad"
         description="Corporative, responsive and accessible website, developed using HTML and CSS (SASS)."
         repo="https://github.com/cterrasid/corchangulos-squad-website"
         demo="http://beta.adalab.es/f-m1-corchangulossquad/"
       />
       <ProjectCard
         image={apcjs}
-        title="Interactive webapp: Awesome Profile Cards"
+        name="Interactive webapp: Awesome Profile Cards"
         description="Online cards generator for web developers, builded with Vanilla Javascript,
         HTML and CSS (SASS)."
         repo="https://github.com/cterrasid/fairfax-m2-frontNerds"
@@ -27,7 +27,7 @@ const ProjectsGroup = () => {
       />
       <ProjectCard
         image={apcreact}
-        title="ReactJs Single Page Application"
+        name="ReactJs Single Page Application"
         description="Inherited code project, originally developed in Vanilla JavaScript, then
         refactored and converted into a React's Single Page Application."
         repo="https://github.com/cterrasid/fairfax-m3-groot.join"
@@ -35,7 +35,7 @@ const ProjectsGroup = () => {
       />
       <ProjectCard
         image={events}
-        title="Events interface for Eventbrite"
+        name="Events interface for Eventbrite"
         description="Single Page Application for Eventbrite, using React. The app, is about an
         event interface using the Public Eventbrite API, which allows filtering by
         city and type of event."
