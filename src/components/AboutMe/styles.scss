@@ -6,7 +6,8 @@
     @include flexContainer(flex, center, center, column);
     @include boxSize(unset, 100%);
     min-height: 100vh;
-    background-color: $whitePure;
+    background-color: #e1396c;
+    padding-top: 65px !important;
   }
 
   &__skill-types{

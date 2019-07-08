@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+import { TranslatorProvider } from "react-translate";
 import Header from '../Header';
 import Main from '../Main';
 import './styles.scss';
@@ -14,7 +15,9 @@ class App extends PureComponent {
     };
 
     this.handleMenuClick = this.handleMenuClick.bind(this);
-    this.handleProjectIndividualClick = this.handleProjectIndividualClick.bind(this);
+    this.handleProjectIndividualClick = this.handleProjectIndividualClick.bind(
+      this,
+    );
     this.handleProjectGroupClick = this.handleProjectGroupClick.bind(this);
     this.handleSoftSkillClick = this.handleSoftSkillClick.bind(this);
     this.handleTechSkillClick = this.handleTechSkillClick.bind(this);

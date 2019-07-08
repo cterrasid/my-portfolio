@@ -11,6 +11,8 @@ import Terminal from '../../images/terminal.png';
 import ESLint from '../../images/eslint.svg';
 import Prettier from '../../images/prettier.png';
 import Slack from '../../images/slack.png';
+import SCRUM from '../../images/scrum.png';
+import Trello from '../../images/trello.png';
 import './styles.scss';
 
 const TechnicalSkills = () => {
@@ -101,8 +103,20 @@ const TechnicalSkills = () => {
           <li>
             <img className="tech-skills__skill" src={Slack} alt="slack logo" />
           </li>
-          <li>Trello</li>
-          <li>SCRUM</li>
+          <li>
+            <img
+              className="tech-skills__skill"
+              src={Trello}
+              alt="trello logo"
+            />
+          </li>
+          <li>
+          <img
+              className="tech-skills__skill"
+              src={SCRUM}
+              alt="scrum logo"
+            />
+          </li>
         </ul>
       </div>
     </div>

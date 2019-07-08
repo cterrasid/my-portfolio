@@ -11,7 +11,7 @@
     padding: 0 10px;
     border-radius: 100%;
     background-color: $blackPure;
-    z-index: 1;
+    z-index: 3;
   }
 
   &__btn {
@@ -19,6 +19,7 @@
     @include boxSize(30px, 35px);
     position: relative;
     transition: 0.4s;
+    z-index: 2;
   }
 
   &__icon {
