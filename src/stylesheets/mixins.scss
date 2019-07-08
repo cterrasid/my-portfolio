@@ -39,10 +39,12 @@
   font-size: $fontSizeS;
   font-weight: bold;
   padding: 10px;
+  margin-left: 10px;
   cursor: pointer;
 
   &:hover {
     border-width: 0 0 6px 0;
+    background-color: $aquaGreen;
   }
 }
 
