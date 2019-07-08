@@ -11,9 +11,10 @@ const MenuButton = props => {
         type="checkbox"
         id="checkbox"
         className={`menu-button__checkbox ${menuStatus}`}
+        checked={menuStatus === 'open'}
         onClick={handleMenuClick}
       />
-      <label htmlFor="checkbox" className="menu-button__btn">
+      <label htmlFor="checkbox" className={`menu-button__btn ${menuStatus}`}>
         <div className="menu-button__icon" />
       </label>
     </div>
