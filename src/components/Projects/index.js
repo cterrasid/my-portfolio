@@ -15,12 +15,12 @@ const Projects = props => {
     <section className="projects__container section" id="projects">
       <h2 className="projects__title title">Projects</h2>
       <div className="projects__types">
-        <h2 className="projects__type" onClick={handleProjectGroupClick}>
+        <h3 className="projects__type" onClick={handleProjectGroupClick}>
           Group projects
-        </h2>
-        <h2 className="projects__type" onClick={handleProjectIndividualClick}>
+        </h3>
+        <h3 className="projects__type" onClick={handleProjectIndividualClick}>
           Individual projects
-        </h2>
+        </h3>
       </div>
       {projectType === 'group' ? <ProjectsGroup /> : <ProjectsIndividual />}
     </section>
