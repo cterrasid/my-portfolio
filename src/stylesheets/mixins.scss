@@ -33,6 +33,19 @@
   }
 }
 
+@mixin subsectionStyle {
+  border-bottom: 4px solid $blackPure;
+  color: $blackPure;
+  font-size: $fontSizeS;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+
+  &:hover {
+    border-width: 0 0 6px 0;
+  }
+}
+
 @mixin backgroundImage($url, $positionX, $positionY, $repeat, $color, $size) {
   background: url($url) $positionX $positionY $repeat $color;
   background-size: $size;

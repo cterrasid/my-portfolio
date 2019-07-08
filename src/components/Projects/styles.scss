@@ -8,4 +8,13 @@
     background-color: $whitePure;
     border-top: 3px solid $blackPure;
   }
+
+  &__types{
+    @include flexContainer(flex, center, center, row);
+  }
+
+  &__type{
+    @include subsectionStyle;
+    margin-left: 10px;
+  }
 }
