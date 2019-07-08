@@ -9,7 +9,8 @@ const Publications = () => {
       <PublicationCard
         name="El soundtrack del aprendiz"
         language="ES"
-        description="Breve recorrido musical a través de las vivencias, triunfos y derrotas que padece un programador junior en pleno proceso de aprendizaje"
+        description=""
+        link="https://medium.com/@clarette.terrasi/el-soundtrack-del-aprendiz-8d1e3d9c1b44"
       />
     </section>
   );

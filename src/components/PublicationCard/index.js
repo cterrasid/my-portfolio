@@ -1,24 +1,32 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './styles.scss';
 
 const PublicationCard = props => {
-  const { title, language, description, link } = props;
+  const { name, language, description, link } = props;
+
   return (
-    <section className="publications__container" id="publications">
-      <h1 className="publications__section-title">Publications</h1>
-      <h3 className="publications__title">"El soundtrack del aprendiz"</h3>
-      <h4 className="publications__language">ES</h4>
-      <p>{description}</p>
+    <article className="publication-card__container">
+      <h2 className="publication-card__name">{name}</h2>
+      <span className="publication-card__language">{language}</span>
+      <p className="publication-card__description">{description}</p>
       <a
-        className="publications__link"
-        href="https://medium.com/@clarette.terrasi/el-soundtrack-del-aprendiz-8d1e3d9c1b44"
+        className="publication-card__link"
+        href={link}
         target="_blank"
         rel="noopener noreferrer"
       >
         link
       </a>
-    </section>
+    </article>
   );
+};
+
+PublicationCard.propTypes = {
+  name: PropTypes.string.isRequired,
+  language: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
 };
 
 export default PublicationCard;
