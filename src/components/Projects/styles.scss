@@ -6,7 +6,6 @@
     @include flexContainer(flex, center, center, column);
     @include boxSize(unset, 100%);
     background-color: $whitePure;
-    border-top: 3px solid $blackPure;
   }
 
   &__types{

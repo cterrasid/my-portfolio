@@ -12,8 +12,8 @@ const Projects = props => {
   } = props;
 
   return (
-    <section className="projects__container" id="projects">
-      <h1 className="projects__title">Projects</h1>
+    <section className="projects__container section" id="projects">
+      <h2 className="projects__title title">Projects</h2>
       <div className="projects__types">
         <h2 className="projects__type" onClick={handleProjectGroupClick}>
           Group projects

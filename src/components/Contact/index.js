@@ -1,11 +1,12 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import SocialNetwork from '../SocialNetwork';
 import './styles.scss';
 
 const Contact = () => {
   return (
-    <section className="contact__container" id="contact">
-      <h1 className="contact__title">Contact me</h1>
+    <section className="contact__container section" id="contact">
+      <h2 className="contact__title title">Contact me</h2>
       <ul className="contact__social-list">
         <li>
           <SocialNetwork
@@ -32,6 +33,7 @@ const Contact = () => {
           />
         </li>
       </ul>
+      <Link smooth to="/#hero">Up</Link>
     </section>
   );
 };

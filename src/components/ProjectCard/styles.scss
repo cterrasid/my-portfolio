@@ -18,12 +18,13 @@
     @include flexContainer(flex, flex-start, flex-start, column);
   }
 
-  &__title {
+  &__name {
     font-family: $font-secondary;
   }
 
   &__description {
-    text-overflow: ellipsis;
+    font-size: $fontSizeXS;
+    line-height: 25px;
   }
 
   &__links {

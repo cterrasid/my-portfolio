@@ -1,42 +1,13 @@
 import React from 'react';
+import TechnicalSkills from '../TechnicalSkills';
 import './styles.scss';
 
 const AboutMe = () => {
   return (
-    <section className="about-me__container" id="aboutMe" >
-      <h1 className="about-me__title">About me</h1>
+    <section className="about-me__container section" id="aboutMe">
+      <h2 className="about-me__title title">About me</h2>
       <p className="about-me__description">Description</p>
-      <div className="about-me__stack">
-        <h2>Stack</h2>
-        <h3>Web layout:</h3>
-        <ul>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>SASS</li>
-        </ul>
-        <h3>Web programming:</h3>
-        <ul>
-          <li>Vanilla JavaScript</li>
-          <li>React</li>
-        </ul>
-        <h3>Development tools:</h3>
-        <ul>
-          <li>Git</li>
-          <li>VSCode</li>
-          <li>Terminal</li>
-        </ul>
-        <h3>Clean code & good practices:</h3>
-        <ul>
-          <li>ESLint</li>
-          <li>Prettier</li>
-        </ul>
-        <h3>Communication and teamwork tools:</h3>
-        <ul>
-          <li>Slack</li>
-          <li>Trello</li>
-          <li>SCRUM</li>
-        </ul>
-      </div>
+      <TechnicalSkills />
     </section>
   );
 };
