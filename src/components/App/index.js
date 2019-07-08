@@ -10,11 +10,14 @@ class App extends PureComponent {
     this.state = {
       menuStatus: 'close' || 'open',
       projectType: 'group' || 'individual',
+      skillType: 'tech' || 'soft',
     };
 
     this.handleMenuClick = this.handleMenuClick.bind(this);
     this.handleProjectIndividualClick = this.handleProjectIndividualClick.bind(this);
     this.handleProjectGroupClick = this.handleProjectGroupClick.bind(this);
+    this.handleSoftSkillClick = this.handleSoftSkillClick.bind(this);
+    this.handleTechSkillClick = this.handleTechSkillClick.bind(this);
   }
 
   handleMenuClick() {
@@ -41,8 +44,20 @@ class App extends PureComponent {
     });
   }
 
+  handleSoftSkillClick() {
+    this.setState({
+      skillType: 'soft',
+    });
+  }
+
+  handleTechSkillClick() {
+    this.setState({
+      skillType: 'tech',
+    });
+  }
+
   render() {
-    const { menuStatus, projectType } = this.state;
+    const { menuStatus, projectType, skillType } = this.state;
 
     return (
       <div className="app__container">
@@ -53,6 +68,9 @@ class App extends PureComponent {
         <Main
           handleProjectIndividualClick={this.handleProjectIndividualClick}
           handleProjectGroupClick={this.handleProjectGroupClick}
+          handleSoftSkillClick={this.handleSoftSkillClick}
+          handleTechSkillClick={this.handleTechSkillClick}
+          skillType={skillType}
           projectType={projectType}
         />
       </div>

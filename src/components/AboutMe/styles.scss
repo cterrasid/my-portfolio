@@ -5,10 +5,15 @@
   &__container {
     @include flexContainer(flex, center, center, column);
     @include boxSize(unset, 100%);
+    min-height: 100vh;
     background-color: $whitePure;
   }
 
-  &__tech-skill {
-    @include boxSize(unset, 40px);
+  &__skill-types{
+    @include flexContainer(flex, center, center, row);
+  }
+
+  &__skill-type{
+    @include subsectionStyle;
   }
 }

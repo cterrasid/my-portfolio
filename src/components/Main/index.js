@@ -7,11 +7,22 @@ import Contact from '../Contact';
 import './styles.scss';
 
 const Main = props => {
-  const { handleProjectIndividualClick, handleProjectGroupClick, projectType } = props;
+  const {
+    handleProjectIndividualClick,
+    handleProjectGroupClick,
+    handleSoftSkillClick,
+    handleTechSkillClick,
+    skillType,
+    projectType,
+  } = props;
 
   return (
     <main className="main__container">
-      <AboutMe />
+      <AboutMe
+        handleSoftSkillClick={handleSoftSkillClick}
+        handleTechSkillClick={handleTechSkillClick}
+        skillType={skillType}
+      />
       <Projects
         handleProjectIndividualClick={handleProjectIndividualClick}
         handleProjectGroupClick={handleProjectGroupClick}
@@ -25,7 +36,7 @@ const Main = props => {
 
 Main.propTypes = {
   handleProjectIndividualClick: PropTypes.func.isRequired,
-  handleProjectGroupClick:PropTypes.func.isRequired,
+  handleProjectGroupClick: PropTypes.func.isRequired,
   projectType: PropTypes.string.isRequired,
 };
 

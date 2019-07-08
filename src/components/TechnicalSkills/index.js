@@ -16,7 +16,6 @@ import './styles.scss';
 const TechnicalSkills = () => {
   return (
     <div className="tech-skills__container">
-      <h3 className="tech-skills__title">Technical Skills</h3>
       <div className="tech-skills__group-skills">
         <h4 className="tech-skills__subtitle">Web layout:</h4>
         <ul className="tech-skills__list">
