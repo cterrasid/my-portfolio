@@ -5,7 +5,7 @@
   &__container {
     @include flexContainer(flex, center, center, column);
     @include boxSize(unset, 100%);
-    background-color: $whitePure;
+    background-color: $violetPure;
   }
 
   &__types{

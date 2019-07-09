@@ -1,17 +1,18 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
+import es from '../../assets/es.json';
 import SocialNetwork from '../SocialNetwork';
 import './styles.scss';
 
 const Contact = () => {
+  const { title, social_networks } = es.contact;
+
   return (
     <section className="contact__container section" id="contact">
       <svg
         id="clouds"
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
-        width="100%"
-        height="30"
         viewBox="0 0 100 100"
         preserveAspectRatio="none"
       >
@@ -39,32 +40,13 @@ const Contact = () => {
          M95 100 Q 100 15 105 100 Z"
         />
       </svg>
-      <h2 className="contact__title title">Contact me</h2>
+      <h2 className="contact__title title">{title}</h2>
       <ul className="contact__social-list">
-        <li>
-          <SocialNetwork
-            url="https://www.linkedin.com/in/claretteterrasidiaz/"
-            icon="fab fa-linkedin-in"
-          />
-        </li>
-        <li>
-          <SocialNetwork
-            url="https://github.com/cterrasid"
-            icon="fab fa-github-alt"
-          />
-        </li>
-        <li>
-          <SocialNetwork
-            url="https://twitter.com/clarettetedi"
-            icon="fab fa-twitter"
-          />
-        </li>
-        <li>
-          <SocialNetwork
-            url="mailto:clarette.terrasi@gmail.com"
-            icon="fas fa-envelope"
-          />
-        </li>
+        {social_networks.map(item => (
+          <li key={item.id}>
+            <SocialNetwork url={item.url} icon={item.icon} />
+          </li>
+        ))}
       </ul>
       <Link smooth to="/#hero">
         Up

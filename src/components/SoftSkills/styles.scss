@@ -1,28 +1,22 @@
 @import '../../stylesheets/mixins.scss';
 @import '../../stylesheets/variables.scss';
 
-.tech-skills {
+.soft-skills {
   &__container {
     @include flexContainer(flex, center, flex-start, column);
     @include boxSize(unset, 100%);
     background-color: $whitePure;
   }
 
-  &__group-skills {
-    @include boxStyle(5px);
-    @include boxSize(110px, 80%);
-    border: 2px solid $blackPure;
-    padding: 10px;
-    margin: 10px auto;
-  }
-
   &__list {
-    @include flexContainer(flex, center, center, row);
     @include boxSize(unset, 100%);
   }
 
   &__skill {
-    @include boxSize(unset, 40px);
-    margin: 5px;
+    @include boxStyle(5px);
+    @include boxSize(50px, 80%);
+    border: 2px solid $blackPure;
+    padding: 10px;
+    margin: 10px auto;
   }
 }

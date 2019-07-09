@@ -1,4 +1,5 @@
 import React from 'react';
+import es from '../../assets/es.json';
 import HTML5 from '../../images/html5.png';
 import CSS3 from '../../images/css3.png';
 import SASS from '../../images/sass.svg';
@@ -16,10 +17,18 @@ import Trello from '../../images/trello.png';
 import './styles.scss';
 
 const TechnicalSkills = () => {
+  const {
+    web_layout,
+    web_programming,
+    dev_tools,
+    clean_code,
+    communication,
+  } = es.about_me.tech_skills.skills;
+
   return (
     <div className="tech-skills__container">
       <div className="tech-skills__group-skills">
-        <h4 className="tech-skills__subtitle">Web layout:</h4>
+        <h4 className="tech-skills__subtitle">{web_layout}</h4>
         <ul className="tech-skills__list">
           <li>
             <img className="tech-skills__skill" src={HTML5} alt="html5 logo" />
@@ -33,7 +42,7 @@ const TechnicalSkills = () => {
         </ul>
       </div>
       <div className="tech-skills__group-skills">
-        <h4 className="tech-skills__subtitle">Web programming:</h4>
+        <h4 className="tech-skills__subtitle">{web_programming}</h4>
         <ul className="tech-skills__list">
           <li>
             <img
@@ -52,7 +61,7 @@ const TechnicalSkills = () => {
         </ul>
       </div>
       <div className="tech-skills__group-skills">
-        <h4 className="tech-skills__subtitle">Development tools:</h4>
+        <h4 className="tech-skills__subtitle">{dev_tools}</h4>
         <ul className="tech-skills__list">
           <li>
             <img className="tech-skills__skill" src={GIT} alt="git logo" />
@@ -77,7 +86,7 @@ const TechnicalSkills = () => {
         </ul>
       </div>
       <div className="tech-skills__group-skills">
-        <h4 className="tech-skills__subtitle">Clean code & good practices:</h4>
+        <h4 className="tech-skills__subtitle">{clean_code}</h4>
         <ul className="tech-skills__list">
           <li>
             <img
@@ -96,9 +105,7 @@ const TechnicalSkills = () => {
         </ul>
       </div>
       <div className="tech-skills__group-skills">
-        <h4 className="tech-skills__subtitle">
-          Communication and teamwork tools:
-        </h4>
+        <h4 className="tech-skills__subtitle">{communication}</h4>
         <ul className="tech-skills__list">
           <li>
             <img className="tech-skills__skill" src={Slack} alt="slack logo" />
@@ -111,11 +118,7 @@ const TechnicalSkills = () => {
             />
           </li>
           <li>
-          <img
-              className="tech-skills__skill"
-              src={SCRUM}
-              alt="scrum logo"
-            />
+            <img className="tech-skills__skill" src={SCRUM} alt="scrum logo" />
           </li>
         </ul>
       </div>

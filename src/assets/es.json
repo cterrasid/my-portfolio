@@ -12,7 +12,7 @@
   },
   "about_me": {
     "title": "Sobre mi",
-    "description": "Desarrolladora Frontend, en constante evolución y aprendizaje. Metódica, adaptativa, curiosa y comprometida por dar lo mejor de mi en todo lo que hago. El mundo de la tecnología me enganchó deinmediato, por su transversalidad y los constantes retos que supone, así como la oportunidad de llevar mi potencial creativo y analítico a otro nivel",
+    "description": "Desarrolladora Frontend, en constante evolución y aprendizaje. Metódica, adaptativa, curiosa y comprometida por dar lo mejor de mi en todo lo que hago. El mundo de la tecnología me enganchó de inmediato, por su transversalidad y los constantes retos que supone, así como la oportunidad de llevar mi potencial creativo y analítico a otro nivel",
     "tech_skills": {
       "title": "Competencias técnicas",
       "skills": {
@@ -123,7 +123,29 @@
     ]
   },
   "contact": {
-    "title": "Contáctame"
+    "title": "Contáctame",
+    "social_networks": [
+      {
+        "id": "01",
+        "url": "https://www.linkedin.com/in/claretteterrasidiaz/",
+        "icon": "fab fa-linkedin-in"
+      },
+      {
+        "id": "02",
+        "url": "https://github.com/cterrasid",
+        "icon": "fab fa-github-alt"
+      },
+      {
+        "id": "03",
+        "url": "https://twitter.com/clarettetedi",
+        "icon": "fab fa-twitter"
+      },
+      {
+        "id": "04",
+        "url": "mailto:clarette.terrasi@gmail.com",
+        "icon": "fas fa-envelope"
+      }
+    ]
   },
   "links": {
     "repo": "Repositorio",

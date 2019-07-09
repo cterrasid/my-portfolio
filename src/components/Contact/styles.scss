@@ -12,6 +12,7 @@
 }
 
 svg#clouds {
+  @include boxSize(30px, 100%);
   position: absolute;
   top: -30px;
 }

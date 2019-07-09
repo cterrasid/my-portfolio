@@ -2,6 +2,10 @@ import React, { PureComponent } from 'react';
 import Header from '../Header';
 import Main from '../Main';
 import './styles.scss';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faEnvelope, faKey } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faEnvelope, faKey);
 
 class App extends PureComponent {
   constructor(props) {

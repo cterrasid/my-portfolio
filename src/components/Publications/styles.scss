@@ -21,6 +21,6 @@ svg#curveDownColor {
 }
 
 #curveDownColor path {
-  fill: darken($whitePure, 7%);
-  stroke: darken($whitePure, 7%);
+  fill: $violetPure;
+  stroke: $violetPure;
 }

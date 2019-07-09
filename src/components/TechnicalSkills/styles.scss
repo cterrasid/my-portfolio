@@ -5,12 +5,12 @@
   &__container {
     @include flexContainer(flex, center, flex-start, column);
     @include boxSize(unset, 100%);
-    background-color: #e1396c;
+    background-color: $whitePure;
   }
 
   &__group-skills {
     @include boxStyle(5px);
-    @include boxSize(110px, 80%);
+    @include boxSize(130px, 80%);
     border: 2px solid $blackPure;
     padding: 10px;
     margin: 10px auto;
