@@ -6,5 +6,21 @@
     @include flexContainer(flex, center, center, column);
     @include boxSize(100vh, 100%);
     background-color: $whitePure;
+    position: relative;
   }
+
+  &__title {
+    padding-top: 50px;
+  }
+}
+
+svg#curveDownColor {
+  @include boxSize(80px, 100%);
+  position: absolute;
+  top: 0px;
+}
+
+#curveDownColor path {
+  fill: darken($whitePure, 7%);
+  stroke: darken($whitePure, 7%);
 }

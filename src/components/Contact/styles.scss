@@ -6,15 +6,17 @@
     @include flexContainer(flex, center, center, column);
     @include boxSize(100vh, 100%);
     border-top: 3px solid $blackPure;
+    background-color:$whiteMedium;
     position: relative;
   }
 }
 
-svg#curveUpColor{
+svg#clouds {
   position: absolute;
-  top: -50px;
+  top: -30px;
 }
-#curveUpColor path {
-  fill: #4545;
-  stroke: #4545;
+
+#clouds path {
+  fill:$whiteMedium;
+  stroke:$whiteMedium;
 }

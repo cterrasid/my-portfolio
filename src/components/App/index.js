@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import { TranslatorProvider } from "react-translate";
 import Header from '../Header';
 import Main from '../Main';
 import './styles.scss';

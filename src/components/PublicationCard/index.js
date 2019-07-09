@@ -1,9 +1,11 @@
 import React from 'react';
+import es from '../../assets/es.json';
 import PropTypes from 'prop-types';
 import './styles.scss';
 
 const PublicationCard = props => {
   const { name, language, description, link } = props;
+  const linkTo = es.links.link;
 
   return (
     <article className="publication-card__container">
@@ -19,7 +21,7 @@ const PublicationCard = props => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        link
+        {linkTo}
       </a>
     </article>
   );

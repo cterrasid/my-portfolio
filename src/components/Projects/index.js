@@ -1,4 +1,5 @@
 import React from 'react';
+import es from '../../assets/es.json';
 import PropTypes from 'prop-types';
 import ProjectsGroup from '../ProjectsGroup';
 import ProjectsIndividual from '../ProjectsIndividual';
@@ -10,16 +11,17 @@ const Projects = props => {
     handleProjectGroupClick,
     projectType,
   } = props;
+  const { title, group, individual } = es.projects;
 
   return (
     <section className="projects__container section" id="projects">
-      <h2 className="projects__title title">Projects</h2>
+      <h2 className="projects__title title">{title}</h2>
       <div className="projects__types">
         <h3 className="projects__type" onClick={handleProjectGroupClick}>
-          Group projects
+          {group.title}
         </h3>
         <h3 className="projects__type" onClick={handleProjectIndividualClick}>
-          Individual projects
+          {individual.title}
         </h3>
       </div>
       {projectType === 'group' ? <ProjectsGroup /> : <ProjectsIndividual />}
