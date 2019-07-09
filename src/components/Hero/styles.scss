@@ -37,12 +37,14 @@
 
   &__title{
     font-family: $font-secondary;
-    font-size: $fontSizeXXL;
+    font-size: $fontSizeXL;
     text-align: center;
   }
 
   &__subtitle{
     font-family: $font-tertiary;
-    font-size: $fontSizeXL;
+    font-size: $fontSizeL;
+    text-align: center;
+    margin-top: 15px;
   }
 }
