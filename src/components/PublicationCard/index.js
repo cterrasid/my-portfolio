@@ -1,5 +1,6 @@
 import React from 'react';
 import es from '../../assets/es.json';
+import spanish from '../../images/spanish.svg';
 import PropTypes from 'prop-types';
 import './styles.scss';
 
@@ -11,7 +12,11 @@ const PublicationCard = props => {
     <article className="publication-card__container">
       <h2 className="publication-card__name">
         {name}
-        <span className="publication-card__language">{language}</span>
+        <img
+          className="publication-card__language"
+          src={spanish}
+          alt="ES/"
+        />
       </h2>
 
       <p className="publication-card__description">{description}</p>

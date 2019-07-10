@@ -6,8 +6,51 @@
     @include flexContainer(flex, center, center, column);
     @include boxSize(100vh, 100%);
     border-top: 3px solid $blackPure;
-    background-color:$whiteMedium;
+    background-color: $whiteMedium;
     position: relative;
+  }
+
+  &__title {
+    order: 2;
+    animation: grow 8s infinite;
+
+    @keyframes grow {
+      0% {
+        font-size: $fontSizeXL;
+      }
+      50% {
+        font-size: 33px;
+      }
+      100% {
+        font-size: $fontSizeXL;
+      }
+    }
+  }
+
+  &__social-list {
+    @include flexContainer(flex, space-around, center, row);
+    @include boxSize(unset, 100%);
+    margin-bottom: 40px;
+    order: 1;
+  }
+
+  &__home {
+    position: absolute;
+    bottom: 40px;
+    order: 3;
+    animation: up 3s infinite;
+
+    @keyframes up {
+      0% {
+        transform: translateY(100%);
+      }
+      10% {
+        transform: translateY(50%);
+      }
+      100% {
+        transform: translateY(100%);
+      }
+    }
   }
 }
 
@@ -18,6 +61,6 @@ svg#clouds {
 }
 
 #clouds path {
-  fill:$whiteMedium;
-  stroke:$whiteMedium;
+  fill: $whiteMedium;
+  stroke: $whiteMedium;
 }

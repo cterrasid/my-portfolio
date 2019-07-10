@@ -10,7 +10,7 @@
 
   &__group-skills {
     @include boxStyle(5px);
-    @include boxSize(130px, 80%);
+    @include boxSize(unset, 80%);
     border: 2px solid $blackPure;
     padding: 10px;
     margin: 10px auto;

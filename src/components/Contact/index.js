@@ -48,7 +48,7 @@ const Contact = () => {
           </li>
         ))}
       </ul>
-      <Link smooth to="/#hero">
+      <Link smooth to="/#hero" className="contact__home">
         Up
       </Link>
     </section>

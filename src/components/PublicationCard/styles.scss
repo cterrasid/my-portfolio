@@ -15,13 +15,9 @@
 
   &__language {
     display: inline;
-    font-family: $font-primary;
-    font-size: $fontSizeS;
-    border-radius: 100%;
-    border: 2px solid $blackPure;
-    margin-left: 20px;
-    padding: 5px;
-
+    @include boxSize(30px, 30px);
+    margin-left: 10px;
+    padding-top: 10px;
   }
 
   &__description {

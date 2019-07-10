@@ -7,7 +7,7 @@ const SocialNetwork = props => {
 
   return (
     <a href={url} target="_blank" rel="noopener noreferrer">
-      <i className={icon} />
+      <i className={`${icon} social__icon`} />
     </a>
   );
 };

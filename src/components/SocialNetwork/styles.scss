@@ -1,0 +1,9 @@
+@import '../../stylesheets/variables.scss';
+
+.social__icon {
+  font-size: 20px;
+
+  &:hover {
+    font-size: $fontSizeL;
+  }
+}
