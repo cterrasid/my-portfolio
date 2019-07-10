@@ -83,7 +83,7 @@
           "id": "01",
           "image": "",
           "name": "Life calendar",
-          "description": "Añadir una descripción",
+          "description": "Aplicación de una sola página creada con ReactJS. Se trata de un calendario de estado de ánimo, que permite agregar el estado de ánimo por día. Dispone de dos estados de ánimo diferentes (feliz o triste).",
           "repo": "https://github.com/Adalab/f-online-life-calendar-cterrasid",
           "demo": "http://beta.adalab.es/f-online-life-calendar-cterrasid/"
         },
@@ -91,7 +91,7 @@
           "id": "02",
           "image": "https://res.cloudinary.com/cterrasid/image/upload/v1562766502/my_portfolio/memory_mougyw.png",
           "name": "Juego de memoria basado en Pokemon",
-          "description": "Añadir una descripción",
+          "description": "Juego de Memoria basado en Pokemon, desarrollado con Vanilla JavaScript, HTML y CSS(SASS). Dispone de tres modalidades de juego: 4 cartas, 6 cartas y 8 cartas",
           "repo": "https://github.com/cterrasid/pokemon-memorygame",
           "demo": "https://cterrasid.github.io/pokemon-memorygame/"
         },
@@ -99,7 +99,7 @@
           "id": "03",
           "image": "https://res.cloudinary.com/cterrasid/image/upload/v1562766502/my_portfolio/pokedex_ofe9kx.png",
           "name": "Pokedex",
-          "description": "Añadir una descripción",
+          "description": "Simple interfaz construída con ReactJS, que muestra 25 diferentes pokemons y permite buscarlos según su nombre. Dispone de vista de detalle.",
           "repo": "https://github.com/Adalab/f-online-pokemon-cterrasid",
           "demo": "http://beta.adalab.es/f-online-pokemon-cterrasid/"
         },
@@ -107,7 +107,7 @@
           "id": "04",
           "image": "https://res.cloudinary.com/cterrasid/image/upload/v1562766503/my_portfolio/harrypotter_dkdf5z.png",
           "name": "Buscador de personajes basado en Harry Potter",
-          "description": "Añadir una descripción",
+          "description": "Aplicación sencilla construida con ReactJS, que muestra una lista de personajes de Harry Potter. Permite buscar a los personajes según su nombre, y además de una vista de detalle que muestra información adicional sobre el personaje.",
           "repo": "https://github.com/Adalab/f-m3-evaluacion-final-cterrasid",
           "demo": "http://beta.adalab.es/f-m3-evaluacion-final-cterrasid/"
         }

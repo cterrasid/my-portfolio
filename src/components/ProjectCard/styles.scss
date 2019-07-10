@@ -6,16 +6,31 @@
     @include boxSize(unset, 250px);
     @include flexContainer(flex, center, center, column);
     margin: 20px auto;
+
+    @media all and (min-width: $tablet) {
+      @include boxSize(350px, 320px);
+      justify-content: space-between;
+      background-color: $whitePure;
+      margin: 10px;
+    }
   }
 
   &__image {
     @include boxStyle(0);
     @include boxSize(130px, 100%);
     margin-bottom: 20px;
+
+    @media all and (min-width: $tablet) {
+      height: 160px;
+    }
   }
 
   &__content {
     @include flexContainer(flex, flex-start, flex-start, column);
+
+    @media all and (min-width: $tablet) {
+      width: 280px;
+    }
   }
 
   &__name {
@@ -25,6 +40,10 @@
   &__description {
     font-size: $fontSizeXS;
     line-height: 25px;
+
+    @media all and (min-width: $tablet) {
+      display: none;
+    }
   }
 
   &__links {

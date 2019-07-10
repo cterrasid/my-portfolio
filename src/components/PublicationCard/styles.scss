@@ -6,6 +6,11 @@
     @include boxSize(100vh, 250px);
     @include flexContainer(flex, center, center, column);
     margin: 20px auto;
+
+    @media all and (min-width: $tablet) {
+      @include flexContainer(flex, center, center, row wrap);
+      @include boxSize(25%, 80%);
+    }
   }
 
   &__name {

@@ -6,10 +6,18 @@
     @include flexContainer(flex, center, flex-start, column);
     @include boxSize(unset, 100%);
     background-color: $whitePure;
+
+    @media all and (min-width: $tablet) {
+      @include flexContainer(flex, center, center, row wrap);
+    }
   }
 
   &__list {
     @include boxSize(unset, 100%);
+
+    @media all and (min-width: $tablet) {
+      @include boxSize(unset, 100%);
+    }
   }
 
   &__skill {
@@ -18,5 +26,9 @@
     border: 2px solid $blackPure;
     padding: 10px;
     margin: 10px auto;
+
+    @media all and (min-width: $tablet) {
+      @include boxSize(unset, 22%);
+    }
   }
 }
