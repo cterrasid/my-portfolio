@@ -1,9 +1,18 @@
 @import '../../stylesheets/variables.scss';
+@import '../../stylesheets/mixins.scss';
 
 .social__icon {
-  font-size: 20px;
+  @include boxSize(60px, 60px);
 
   &:hover {
     font-size: $fontSizeL;
   }
+}
+
+.gmail, .linkedin {
+  padding-top: 30px;
+}
+
+.github, .twitter {
+  padding-bottom: 30px;
 }

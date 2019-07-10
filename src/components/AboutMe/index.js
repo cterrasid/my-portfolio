@@ -21,7 +21,13 @@ const AboutMe = props => {
         <path d="M0 0 L50 100 L100 0 Z" />
       </svg>
       <h2 className="about-me__title title">{title}</h2>
-      <p className="about-me__description">{description}</p>
+      <p className="about-me__description">
+        {description.p1}
+        <br />
+        {description.p2}
+        <br />
+        {description.p3}
+      </p>
       <div className="about-me__skill-types">
         <h3 className="about-me__skill-type" onClick={handleTechSkillClick}>
           {tech_skills.title}

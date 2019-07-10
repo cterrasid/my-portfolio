@@ -44,13 +44,15 @@ const Contact = () => {
       <ul className="contact__social-list">
         {social_networks.map(item => (
           <li key={item.id}>
-            <SocialNetwork url={item.url} icon={item.icon} />
+            <SocialNetwork
+              url={item.url}
+              icon={item.icon}
+              name={item.social}
+            />
           </li>
         ))}
       </ul>
-      <Link smooth to="/#hero" className="contact__home">
-        Up
-      </Link>
+      <Link smooth to="/#hero" className="contact__home" />
     </section>
   );
 };

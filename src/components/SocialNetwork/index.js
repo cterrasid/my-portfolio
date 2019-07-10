@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import './styles.scss';
 
 const SocialNetwork = props => {
-  const { url, icon } = props;
+  const { url, icon, name } = props;
 
   return (
     <a href={url} target="_blank" rel="noopener noreferrer">
-      <i className={`${icon} social__icon`} />
+      <img className={`${name} social__icon`} src={icon} alt={`${name} logo`} />
     </a>
   );
 };

@@ -9,7 +9,11 @@ const ProjectCard = props => {
 
   return (
     <article className="project-card__container">
-      <img className="project-card__image" src={image} alt={name} />
+      <img
+        className="project-card__image"
+        src={image}
+        alt={name}
+      />
       <div className="project-card__content">
         <h2 className="project-card__name">{name}</h2>
         <p className="project-card__description">{description}</p>

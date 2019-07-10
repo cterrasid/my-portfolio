@@ -12,7 +12,11 @@
   },
   "about_me": {
     "title": "Sobre mi",
-    "description": "Desarrolladora Frontend, en constante evolución y aprendizaje. Metódica, adaptativa, curiosa y comprometida por dar lo mejor de mi en todo lo que hago. El mundo de la tecnología me enganchó de inmediato, por su transversalidad y los constantes retos que supone, así como la oportunidad de llevar mi potencial creativo y analítico a otro nivel",
+    "description": {
+      "p1": "Desarrolladora Frontend, en constante evolución y aprendizaje.",
+      "p2": "Metódica, adaptativa, curiosa y comprometida por dar lo mejor de mi en todo lo que hago.",
+      "p3": "El mundo de la tecnología me enganchó de inmediato, por su transversalidad y los constantes retos que supone, así como la oportunidad de llevar mi potencial creativo y analítico a otro nivel"
+    },
     "tech_skills": {
       "title": "Competencias técnicas",
       "skills": {
@@ -40,7 +44,7 @@
       "project": [
         {
           "id": "01",
-          "image": "../../images/corchangulo.png",
+          "image": "https://res.cloudinary.com/cterrasid/image/upload/v1562766504/my_portfolio/corchangulo_ngbaok.png",
           "name": "Web de contacto: Corchángulo's Squad",
           "description": "Web corporativa, responsive y accesible, desarrollada con HTML y CSS (SASS). Disponible en inglés y español",
           "repo": "https://github.com/cterrasid/corchangulos-squad-website",
@@ -48,7 +52,7 @@
         },
         {
           "id": "02",
-          "image": "../../images/apc-javascript.png",
+          "image": "https://res.cloudinary.com/cterrasid/image/upload/v1562766501/my_portfolio/apc-javascript_u8il5p.png",
           "name": "Aplicación web interactiva: Awesome Profile Cards",
           "description": "Generador online de tarjetas de presentación para desarrolladores web; maquetado con HTML y CSS (SASS), y desarrollado con JavaScript.",
           "repo": "https://github.com/cterrasid/fairfax-m2-frontNerds",
@@ -56,7 +60,7 @@
         },
         {
           "id": "03",
-          "image": "../../images/apc-reactjs.png",
+          "image": "https://res.cloudinary.com/cterrasid/image/upload/v1562766503/my_portfolio/apc-reactjs_cabode.png",
           "name": "Aplicación web interactiva con ReactJs",
           "description": "Migración de un proyecto desarrollado originalmente con Vanilla JavaScript a ReactJS.",
           "repo": "https://github.com/cterrasid/fairfax-m3-groot.join",
@@ -64,7 +68,7 @@
         },
         {
           "id": "04",
-          "image": "../../images/eventbrite-events.png",
+          "image": "https://res.cloudinary.com/cterrasid/image/upload/v1562766503/my_portfolio/eventbrite-events_khbkti.png",
           "name": "Interfaz dinámica de eventos para Eventbrite",
           "description": "Creación de una interfaz dinámica de eventos de la ciudad de Madrid, en colaboración con Eventbrite, con el objetivo de explotar el uso de su API pública. Dispone de vista de detalle de cada evento.",
           "repo": "https://github.com/cterrasid/eventbrite-events",
@@ -85,7 +89,7 @@
         },
         {
           "id": "02",
-          "image": "../../images/memory.png",
+          "image": "https://res.cloudinary.com/cterrasid/image/upload/v1562766502/my_portfolio/memory_mougyw.png",
           "name": "Juego de memoria basado en Pokemon",
           "description": "Añadir una descripción",
           "repo": "https://github.com/cterrasid/pokemon-memorygame",
@@ -93,7 +97,7 @@
         },
         {
           "id": "03",
-          "image": "../../images/pokedex.png",
+          "image": "https://res.cloudinary.com/cterrasid/image/upload/v1562766502/my_portfolio/pokedex_ofe9kx.png",
           "name": "Pokedex",
           "description": "Añadir una descripción",
           "repo": "https://github.com/Adalab/f-online-pokemon-cterrasid",
@@ -101,7 +105,7 @@
         },
         {
           "id": "04",
-          "image": "../../images/harrypotter.png",
+          "image": "https://res.cloudinary.com/cterrasid/image/upload/v1562766503/my_portfolio/harrypotter_dkdf5z.png",
           "name": "Buscador de personajes basado en Harry Potter",
           "description": "Añadir una descripción",
           "repo": "https://github.com/Adalab/f-m3-evaluacion-final-cterrasid",
@@ -115,7 +119,7 @@
     "publication": [
       {
         "id": "01",
-        "language": "../../images/spanish.svg",
+        "language": "https://res.cloudinary.com/cterrasid/image/upload/v1562767073/my_portfolio/spanish_pwfj9h.svg",
         "name": "El soundtrack del aprendiz",
         "description": "Breve recorrido musical a través de las vivencias, triunfos y derrotas que padece una programadora junior en pleno proceso de aprendizaje.",
         "link": "https://medium.com/@clarette.terrasi/el-soundtrack-del-aprendiz-8d1e3d9c1b44"
@@ -127,23 +131,27 @@
     "social_networks": [
       {
         "id": "01",
+        "social": "linkedin",
         "url": "https://www.linkedin.com/in/claretteterrasidiaz/",
-        "icon": "fab fa-linkedin-in"
+        "icon": "https://res.cloudinary.com/cterrasid/image/upload/v1562771381/my_portfolio/linkedin_kayvgd.svg"
       },
       {
         "id": "02",
+        "social": "github",
         "url": "https://github.com/cterrasid",
-        "icon": "fab fa-github-alt"
+        "icon": "https://res.cloudinary.com/cterrasid/image/upload/v1562771381/my_portfolio/github_w72nrz.svg"
       },
       {
         "id": "03",
+        "social": "twitter",
         "url": "https://twitter.com/clarettetedi",
-        "icon": "fab fa-twitter"
+        "icon": "https://res.cloudinary.com/cterrasid/image/upload/v1562771380/my_portfolio/twitter_yqwwx2.svg"
       },
       {
         "id": "04",
+        "social": "gmail",
         "url": "mailto:clarette.terrasi@gmail.com",
-        "icon": "fas fa-envelope"
+        "icon": "https://res.cloudinary.com/cterrasid/image/upload/v1562771363/my_portfolio/gmail_rvdoew.svg"
       }
     ]
   },

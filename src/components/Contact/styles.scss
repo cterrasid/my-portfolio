@@ -16,13 +16,15 @@
 
     @keyframes grow {
       0% {
-        font-size: $fontSizeXL;
+        font-size: 30px;
+        color: $blackTransparency;
       }
       50% {
-        font-size: 33px;
+        font-size: $fontSizeXL;
+        color: $blackTransparency;
       }
       100% {
-        font-size: $fontSizeXL;
+        font-size: 30px;
       }
     }
   }
@@ -35,6 +37,16 @@
   }
 
   &__home {
+    @include boxSize(30px, 30px);
+    @include backgroundImage(
+      'https://res.cloudinary.com/cterrasid/image/upload/v1562772848/my_portfolio/arrow-in-circle-point-to-up_e9a7i5.svg',
+      center,
+      center,
+      no-repeat,
+      $whitePure,
+      cover
+    );
+    border-radius: 100%;
     position: absolute;
     bottom: 40px;
     order: 3;
