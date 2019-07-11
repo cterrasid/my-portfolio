@@ -8,14 +8,28 @@
     margin: 20px auto;
 
     @media all and (min-width: $tablet) {
-      @include flexContainer(flex, center, center, row wrap);
+      flex-flow: row wrap;
       @include boxSize(25%, 80%);
     }
+  }
+
+  &__info{
+    width: 100%;
+    position: relative;
   }
 
   &__name {
     font-family: $font-secondary;
     display: inline;
+
+    @media all and (min-width: $tablet) {
+      width: 100%;
+      border-bottom: 2px solid $blackPure;
+    }
+
+    @media all and (min-width: $laptop) {
+      font-size: $fontSizeXL;
+    }
   }
 
   &__language {
@@ -23,14 +37,35 @@
     @include boxSize(30px, 30px);
     margin-left: 10px;
     padding-top: 10px;
+
+    @media all and (min-width: $laptop) {
+      @include boxSize(50px, 50px);
+      margin-left: 20px;
+      position: absolute;
+      top: 0;
+    }
   }
 
   &__description {
     font-size: $fontSizeXS;
     line-height: 25px;
+
+    @media all and (min-width: $tablet) {
+      font-size: $fontSizeS;
+    }
+
+    @media all and (min-width: $laptop) {
+      font-size: $fontSizeM;
+      padding-top: 10px;
+      line-height: 2;
+    }
   }
 
   &__link {
     @include linkBoxStyle;
+
+    @media all and (min-width: $tablet) {
+      margin-left: 87%;
+    }
   }
 }

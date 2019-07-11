@@ -8,6 +8,10 @@
     background-color: $beigePure;
     position: relative;
     z-index: 0;
+
+    @media all and (min-width: $laptop) {
+      flex-direction: row;
+    }
   }
 
   &__profile {
@@ -32,20 +36,49 @@
         $whitePure,
         cover
       );
-      transition: background ease .5s;
+      transition: background ease 0.5s;
+    }
+
+    @media all and (min-width: $tablet) {
+      @include boxSize(300px, 300px);
+      margin-bottom: 40px;
+    }
+
+    @media all and (min-width: $laptop) {
+      margin: 0;
     }
   }
 
-  &__title{
+  &__info {
+    width: 100%;
+
+    @media all and (min-width: $laptop) {
+      width: 60%;
+    }
+  }
+
+  &__title {
     font-family: $font-secondary;
     font-size: $fontSizeXL;
     text-align: center;
+
+    @media all and (min-width: $tablet) {
+      font-size: $fontSizeXXL;
+    }
+
+    @media all and (min-width: $laptop) {
+      font-size: $fontSizeXXXL;
+    }
   }
 
-  &__subtitle{
+  &__subtitle {
     font-family: $font-tertiary;
     font-size: $fontSizeL;
     text-align: center;
     margin-top: 15px;
+
+    @media all and (min-width: $tablet) {
+      font-size: $fontSizeXL;
+    }
   }
 }

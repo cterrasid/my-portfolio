@@ -14,5 +14,9 @@
 
   &__type{
     @include subsectionStyle;
+
+    @media all and (min-width: $laptop) {
+      font-size: $fontSizeL;
+    }
   }
 }

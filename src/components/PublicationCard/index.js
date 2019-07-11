@@ -9,11 +9,10 @@ const PublicationCard = props => {
 
   return (
     <article className="publication-card__container">
-      <h2 className="publication-card__name">
-        {name}
+      <div className="publication-card__info">
+        <h2 className="publication-card__name">{name}</h2>
         <img className="publication-card__language" src={language} alt="ES/" />
-      </h2>
-
+      </div>
       <p className="publication-card__description">{description}</p>
       <a
         className="publication-card__link"

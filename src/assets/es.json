@@ -2,7 +2,7 @@
   "locale": "es-esp",
   "hero": {
     "name": "Clarette Terrasi Díaz",
-    "job": "<desarrolladora_frontend>"
+    "job": "Desarrolladora frontend"
   },
   "menu": {
     "about_me": "Sobre mi",
@@ -15,7 +15,7 @@
     "description": {
       "p1": "Desarrolladora Frontend, en constante evolución y aprendizaje.",
       "p2": "Metódica, adaptativa, curiosa y comprometida por dar lo mejor de mi en todo lo que hago.",
-      "p3": "El mundo de la tecnología me enganchó de inmediato, por su transversalidad y los constantes retos que supone, así como la oportunidad de llevar mi potencial creativo y analítico a otro nivel"
+      "p3": "El mundo de la tecnología me enganchó de inmediato, por su transversalidad y los constantes retos que supone, así como la oportunidad de llevar mi potencial creativo y analítico a otro nivel."
     },
     "tech_skills": {
       "title": "Competencias técnicas",

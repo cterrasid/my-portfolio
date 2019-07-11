@@ -19,6 +19,10 @@ body{
   font-size: $fontSizeXL;
   font-family: $font-secondary;
   margin: 0 auto 20px auto;
+
+  @media all and (min-width: $laptop) {
+    font-size: $fontSizeXXL;
+  }
 }
 
 .section{

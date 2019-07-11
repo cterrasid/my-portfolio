@@ -1,5 +1,5 @@
-@import '../../stylesheets/mixins.scss';
-@import '../../stylesheets/variables.scss';
+@import "../../stylesheets/mixins.scss";
+@import "../../stylesheets/variables.scss";
 
 .contact {
   &__container {
@@ -34,12 +34,17 @@
     @include boxSize(unset, 100%);
     margin-bottom: 40px;
     order: 1;
+
+    @media all and (min-width: $tablet) {
+      width: 50%;
+      justify-content: space-evenly;
+    }
   }
 
   &__home {
     @include boxSize(30px, 30px);
     @include backgroundImage(
-      'https://res.cloudinary.com/cterrasid/image/upload/v1562772848/my_portfolio/arrow-in-circle-point-to-up_e9a7i5.svg',
+      "https://res.cloudinary.com/cterrasid/image/upload/v1562772848/my_portfolio/arrow-in-circle-point-to-up_e9a7i5.svg",
       center,
       center,
       no-repeat,
@@ -62,6 +67,11 @@
       100% {
         transform: translateY(100%);
       }
+    }
+
+    @media all and (min-width: $tablet) {
+      @include boxSize(50px, 50px);
+      bottom: 80px;
     }
   }
 }
