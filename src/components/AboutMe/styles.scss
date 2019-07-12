@@ -36,6 +36,10 @@
   &__skill-type {
     @include subsectionStyle;
 
+    &:hover {
+      background-color: $violetPure;
+    }
+
     @media all and (min-width: $laptop) {
       font-size: $fontSizeL;
     }

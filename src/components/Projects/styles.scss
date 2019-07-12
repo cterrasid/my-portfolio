@@ -6,14 +6,19 @@
     @include flexContainer(flex, center, center, column);
     @include boxSize(unset, 100%);
     background-color: $violetPure;
+    padding-top: 70px !important;
   }
 
-  &__types{
+  &__types {
     @include flexContainer(flex, center, center, row);
   }
 
-  &__type{
+  &__type {
     @include subsectionStyle;
+
+    &:hover {
+      background-color: $whiteMedium;
+    }
 
     @media all and (min-width: $laptop) {
       font-size: $fontSizeL;

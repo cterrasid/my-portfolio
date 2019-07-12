@@ -3,7 +3,7 @@ import es from '../../assets/es.json';
 import ProjectCard from '../ProjectCard';
 import './styles.scss';
 
-const ProjectsIndividual = () => {
+const ProjectsIndividual = props => {
   const { individual } = es.projects;
 
   return (

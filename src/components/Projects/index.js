@@ -24,7 +24,11 @@ const Projects = props => {
           {individual.title}
         </h3>
       </div>
-      {projectType === 'group' ? <ProjectsGroup /> : <ProjectsIndividual />}
+      {projectType === 'group' ? (
+        <ProjectsGroup />
+      ) : (
+        <ProjectsIndividual />
+      )}
     </section>
   );
 };

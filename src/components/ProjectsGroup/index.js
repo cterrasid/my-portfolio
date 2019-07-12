@@ -3,7 +3,7 @@ import es from '../../assets/es.json';
 import ProjectCard from '../ProjectCard';
 import './styles.scss';
 
-const ProjectsGroup = () => {
+const ProjectsGroup = props => {
   const { group } = es.projects;
 
   return (
