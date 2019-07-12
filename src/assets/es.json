@@ -81,7 +81,7 @@
       "project": [
         {
           "id": "01",
-          "image": "",
+          "image": "https://res.cloudinary.com/cterrasid/image/upload/v1562940207/my_portfolio/life-calendar_rk5j1y.png",
           "name": "Life calendar",
           "description": "Aplicación de una sola página creada con ReactJS. Se trata de un calendario de estado de ánimo, que permite agregar el estado de ánimo por día. Dispone de dos estados de ánimo diferentes (feliz o triste).",
           "repo": "https://github.com/Adalab/f-online-life-calendar-cterrasid",
