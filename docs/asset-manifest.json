@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "./static/css/main.68b74693.chunk.css",
+    "main.js": "./static/js/main.df49c334.chunk.js",
+    "main.js.map": "./static/js/main.df49c334.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+    "static/css/2.62f4602b.chunk.css": "./static/css/2.62f4602b.chunk.css",
+    "static/js/2.0bfe4d2c.chunk.js": "./static/js/2.0bfe4d2c.chunk.js",
+    "static/js/2.0bfe4d2c.chunk.js.map": "./static/js/2.0bfe4d2c.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.15e14396cf0b8860942da238e0226e18.js": "./precache-manifest.15e14396cf0b8860942da238e0226e18.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.62f4602b.chunk.css.map": "./static/css/2.62f4602b.chunk.css.map",
+    "static/css/main.68b74693.chunk.css.map": "./static/css/main.68b74693.chunk.css.map",
+    "static/media/styles.scss": "./static/media/clarette_caricatura.31234b1d.png",
+    "static/media/css3.png": "./static/media/css3.3f8e68f4.png",
+    "static/media/eslint.svg": "./static/media/eslint.3b4f6be2.svg",
+    "static/media/font-awesome.min.css": "./static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/html5.png": "./static/media/html5.965df1ef.png",
+    "static/media/javascript.png": "./static/media/javascript.e8c27f6b.png",
+    "static/media/prettier.png": "./static/media/prettier.66bdc435.png",
+    "static/media/react.png": "./static/media/react.47ce6e77.png",
+    "static/media/sass.svg": "./static/media/sass.8e766e95.svg",
+    "static/media/scrum.png": "./static/media/scrum.5cce8774.png",
+    "static/media/slack.png": "./static/media/slack.30d4081a.png",
+    "static/media/trello.png": "./static/media/trello.cde215c7.png",
+    "static/media/vscode.png": "./static/media/vscode.ecfeeae8.png"
+  }
+}
