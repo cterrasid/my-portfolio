@@ -44,8 +44,6 @@ _These instructions will allow you to obtain a copy of the project on your local
 
 ## Built with 🛠️
 
-### Dependencies
-
 - [create-react-app](https://create-react-app.dev/docs/getting-started/)
 
 ## License 📄
